@@ -1,0 +1,18 @@
+@media (max-width: 900px) {
+  .resume-biography .max-w-7xl > .grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .resume-biography .avatar-wrapper {
+    width: min(72vw, 260px) !important;
+    height: auto !important;
+    aspect-ratio: 1;
+  }
+
+  .resume-biography .avatar-wrapper .avatar {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100%;
+  }
+}

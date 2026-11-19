@@ -1,0 +1,140 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build portfolio",
+			"type": "shell",
+			"command": "pnpm",
+			"args": [
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Build Hugo portfolio",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install Hugo and build",
+			"type": "shell",
+			"command": "brew install hugo && npm install -g corepack && corepack enable && pnpm install && pnpm build",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install Go and build",
+			"type": "shell",
+			"command": "brew install go && pnpm build",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Rebuild Hugo portfolio",
+			"type": "shell",
+			"command": "pnpm build",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Preview portfolio",
+			"type": "shell",
+			"command": "pnpm dev -- --bind 127.0.0.1",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Extract portfolio PDF text",
+			"type": "shell",
+			"command": "pdftotext -layout '/Users/giulianosoria/Downloads/portafolio web.pdf' /tmp/portafolio.txt && cat /tmp/portafolio.txt",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install PDF tools and extract text",
+			"type": "shell",
+			"command": "brew install poppler && pdftotext -layout '/Users/giulianosoria/Downloads/portafolio web.pdf' /tmp/portafolio.txt && cat /tmp/portafolio.txt",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Copy portfolio PDF",
+			"type": "shell",
+			"command": "mkdir -p static/uploads && cp '/Users/giulianosoria/Downloads/portafolio web.pdf' static/uploads/portafolio-web.pdf",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Extract PDF images",
+			"type": "shell",
+			"command": "mkdir -p /tmp/portafolio-images && pdfimages -png '/Users/giulianosoria/Downloads/portafolio web.pdf' /tmp/portafolio-images/page && ls -lh /tmp/portafolio-images",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Apply PDF images",
+			"type": "shell",
+			"command": "mv assets/media/authors/me.png /tmp/demo-avatar.png && cp /tmp/portafolio-images/page-000.png content/projects/pandas/featured.png && cp /tmp/portafolio-images/page-001.png content/projects/pytorch/featured.png && cp /tmp/portafolio-images/page-002.png content/projects/scikit/featured.png",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Build updated portfolio",
+			"type": "shell",
+			"command": "pnpm build",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Preview updated portfolio",
+			"type": "shell",
+			"command": "pnpm dev -- --bind 127.0.0.1",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Build placeholder avatar portfolio",
+			"type": "shell",
+			"command": "pnpm build",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Convert placeholder avatar to PNG",
+			"type": "shell",
+			"command": "sips -s format png assets/media/authors/me.svg --out assets/media/authors/me.png",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Rebuild placeholder avatar portfolio",
+			"type": "shell",
+			"command": "pnpm build",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Remove incompatible SVG avatar",
+			"type": "shell",
+			"command": "rm assets/media/authors/me.svg",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Verify placeholder avatar build",
+			"type": "shell",
+			"command": "pnpm build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
