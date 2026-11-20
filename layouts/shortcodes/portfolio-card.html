@@ -1,0 +1,16 @@
+{{- $src := .Get "src" -}}
+<article class="portfolio-card group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-1">
+  {{ if $src }}
+  {{ partial "portfolio-figure.html" (dict
+    "src" $src
+    "alt" (.Get "alt")
+    "caption" (.Get "caption")
+    "class" "relative m-0 overflow-hidden bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900"
+    "image_class" "aspect-[16/9] w-full object-cover"
+    "caption_class" "px-6 pt-3 pb-2 text-sm text-gray-600 dark:text-gray-300"
+  ) }}
+  {{ end }}
+  <div class="space-y-4 px-6 pb-8 pt-8 md:px-8">
+    {{ .Inner }}
+  </div>
+</article>

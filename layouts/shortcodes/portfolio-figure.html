@@ -1,10 +1,5 @@
-{{- $src := .Get "src" -}}
-{{- $image := resources.Get $src -}}
-{{- if not $image -}}
-  {{- errorf "portfolio image %q was not found in assets" $src -}}
-{{- else -}}
-<figure class="my-8">
-  <img class="h-auto w-full rounded-lg" src="{{ $image.RelPermalink }}" alt="{{ .Get "alt" }}" loading="lazy" decoding="async">
-  {{ with .Get "caption" }}<figcaption class="mt-2 text-sm text-gray-600 dark:text-gray-300">{{ . | markdownify }}</figcaption>{{ end }}
-</figure>
-{{- end -}}
+{{ partial "portfolio-figure.html" (dict
+  "src" (.Get "src")
+  "alt" (.Get "alt")
+  "caption" (.Get "caption")
+) }}

@@ -1,0 +1,13 @@
+{{- $src := .src -}}
+{{- $image := resources.Get $src -}}
+{{- if not $image -}}
+  {{- errorf "portfolio image %q was not found in assets" $src -}}
+{{- else -}}
+  {{- $figure_class := .class | default "my-8" -}}
+  {{- $image_class := .image_class | default "h-auto w-full rounded-lg" -}}
+  {{- $caption_class := .caption_class | default "mt-2 text-sm text-gray-600 dark:text-gray-300" -}}
+<figure class="{{ $figure_class }}">
+  <img class="{{ $image_class }}" src="{{ $image.RelPermalink }}" alt="{{ .alt }}" loading="lazy" decoding="async">
+  {{ with .caption }}<figcaption class="{{ $caption_class }}">{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
+{{- end -}}

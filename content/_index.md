@@ -11,6 +11,8 @@ sections:
       text: ''
       headings:
         about: 'PROFESSIONAL SUMMARY'
+        education: 'EDUCATION'
+        interests: 'PROFESSIONAL INTERESTS'
     design:
       background:
         gradient_mesh:
@@ -18,43 +20,18 @@ sections:
       name:
         size: lg
       avatar:
-        size: large
+        size: medium
         shape: circle
-  - block: markdown
-    id: education
-    content:
-      title: 'EDUCATION'
-      text: |-
-        **Master of Natural Resource and Environmental Economics**<br>
-        Universidad Nacional Agraria La Molina<br>
-        Lima, Peru
-
-        **Bachelor of Economics**<br>
-        Universidad Nacional Agraria La Molina<br>
-        Lima, Peru
-
-        [World Education Services (WES) Canada verified](https://badges.wes.org/Evidence?i=3b042cfc-d79c-4feb-9c55-038744abd31d&type=ca)
-
-        ## PROFESSIONAL INTERESTS
-
-        - Research coordination and program administration.
-        - Environmental and sustainability initiatives.
-        - Agriculture and food-sector value chains.
-        - Government and public-sector program support.
-        - University research administration.
-        - Community and organizational development.
-    design:
-      columns: '1'
   - block: markdown
     id: research
     content:
       title: 'RESEARCH PORTFOLIO'
       text: |-
+        {{% portfolio-grid %}}
+        {{% portfolio-card src="portfolio/quinoa-production.jpg" alt="Quinoa production in Peru" caption="Figure 1. Quinoa production in Peru, an important agricultural crop in the country's Andean agricultural sector. Source: Agraria.pe (2021). Photograph accompanying Producción nacional de quinua creció 10.3% en 2020. [View original article](https://www.agraria.pe/noticias/produccion-nacional-de-quinua-crecio-10-3-en-2020-23495)." %}}
         ### RESEARCH CASE STUDY 01
 
-        **Quinoa Commercialization Networks in Jauja and Huancayo, Junín Region, Peru**
-
-        {{< portfolio-figure src="portfolio/quinoa-production.jpg" alt="Quinoa production in Peru" caption="Figure 1. Quinoa production in Peru, an important agricultural crop in the country's Andean agricultural sector. Source: Agraria.pe (2021). Photograph accompanying Producción nacional de quinua creció 10.3% en 2020. [View original article](https://www.agraria.pe/noticias/produccion-nacional-de-quinua-crecio-10-3-en-2020-23495)." >}}
+        #### Quinoa Commercialization Networks in Jauja and Huancayo, Junín Region, Peru
 
         This research examined the quinoa commercialization network in the provinces of Jauja and Huancayo, two of the main quinoa-producing areas in Peru’s Junín region.
 
@@ -66,12 +43,12 @@ sections:
         **Published Article:** [DOI: 10.17268/sci.agropecu.2017.03.08](https://doi.org/10.17268/sci.agropecu.2017.03.08)
 
         [View the case study](projects/quinoa-commercialization/)
+        {{% /portfolio-card %}}
 
+        {{% portfolio-card src="portfolio/protected-natural-areas.jpg" alt="Protected natural areas in Peru" caption="Figure 2. Peru’s Impressive Nature Reserve for Ecotourism. Source: Adventur.pe, accessed November 18, 2026, [https://adventur.pe/ecoturismo-en-peru/](https://adventur.pe/ecoturismo-en-peru/)." %}}
         ### RESEARCH PROJECT 2
 
-        **The Importance of Biodiversity in the Decision to Visit a Protected Natural Area in Peru**
-
-        {{< portfolio-figure src="portfolio/protected-natural-areas.jpg" alt="Protected natural areas in Peru" caption="Figure 2. Peru’s Impressive Nature Reserve for Ecotourism. Source: Adventur.pe, accessed November 18, 2026, [https://adventur.pe/ecoturismo-en-peru/](https://adventur.pe/ecoturismo-en-peru/)." >}}
+        #### The Importance of Biodiversity in the Decision to Visit a Protected Natural Area in Peru
 
         This research investigated the influence of biodiversity on people’s decisions to visit protected natural areas (PNAs) in Peru and examined how environmental attributes contribute to the recreational economic value of these areas.
 
@@ -84,6 +61,8 @@ sections:
         **Published Article:** [DOI: 10.7201/earn.2020.02.01.](https://doi.org/10.7201/earn.2020.02.01.)
 
         [View the research project](projects/biodiversity-protected-areas/)
+        {{% /portfolio-card %}}
+        {{% /portfolio-grid %}}
     design:
       columns: '1'
   - block: markdown
@@ -92,19 +71,26 @@ sections:
       title: 'RESEARCH PROJECT COORDINATION & GOVERNMENT FUNDING SUPPORT PORTFOLIO'
       subtitle: 'Universidad Nacional Agraria La Molina (UNALM) | Peru | 2015–2018'
       text: |-
+        {{% portfolio-card src="portfolio/unalm-entrance.jpg" alt="Main entrance of the Universidad Nacional Agraria La Molina" caption="Figure 1. Main entrance of the Universidad Nacional Agraria La Molina (UNALM). Source: Universidad Nacional Agraria La Molina (2025). Gaceta Molinera, Note 128. [Original publication](https://www.lamolina.edu.pe/Gaceta/edicion2025/notas/nota128.htm?utm_source=chatgpt.com)." %}}
         Research Administration | Grant Coordination | Academic Program Development | Institutional Collaboration
-
-        {{< portfolio-figure src="portfolio/unalm-entrance.jpg" alt="Main entrance of the Universidad Nacional Agraria La Molina" caption="Figure 1. Main entrance of the Universidad Nacional Agraria La Molina (UNALM). Source: Universidad Nacional Agraria La Molina (2025). Gaceta Molinera, Note 128. [Original publication](https://www.lamolina.edu.pe/Gaceta/edicion2025/notas/nota128.htm?utm_source=chatgpt.com)." >}}
 
         During my professional experience at Universidad Nacional Agraria La Molina (UNALM), I supported two major government-funded academic and scientific research initiatives awarded through competitive FONDECYT funding programs.
 
         These initiatives comprised a doctoral education program funded through two successful promotions and a multidisciplinary Research Circle focused on the economic valuation of biodiversity in Peru, comprising two complementary research subprojects.
 
         My responsibilities involved administrative coordination, academic program support, institutional documentation, communication with faculty members and research teams, and assistance with administrative requirements associated with publicly funded initiatives.
-
-        ## Selected Projects
-
-        **01 | [Strengthening Doctoral Programs at Peruvian Universities](projects/doctoral-programs/)**<br>
+        {{% /portfolio-card %}}
+    design:
+      columns: '1'
+  - block: markdown
+    id: selected-projects
+    content:
+      title: 'Selected Projects'
+      text: |-
+        {{% portfolio-grid %}}
+        {{% portfolio-card src="portfolio/doctoral-researchers.jpg" alt="Group of researchers" caption="Figure 1. Group of researchers. Source: Eldar Nurkovic. [Dreamstime website](https://www.dreamstime.com/photos-images/scientific-research.html). Original publication." %}}
+        ### 01 |
+        #### [Strengthening Doctoral Programs at Peruvian Universities](projects/doctoral-programs/)
         One initiative · Two funded promotions<br>
         CONV-000200-2015-FONDECYT-DE
 
@@ -113,17 +99,27 @@ sections:
         | Promotion 1 | S/ 2,873,889 |
         | Promotion 2 | S/ 2,209,151 |
         | Combined funding | S/ 5,083,040 |
+        {{% /portfolio-card %}}
 
-        **02 | [Research Circles in Science and Technology: Valuing Biodiversity in Peru](projects/research-circles/)**<br>
+        {{% portfolio-card src="portfolio/biodiversity-peru.jpg" alt="Representation of the biodiversity in Peru" caption="Figure 1. Representation of the biodiversity in Peru. Source: Agraria.pe (2023). Photograph accompanying Perú es uno de los cuatro países más megadiversos del planeta. [View original article](https://agraria.pe/noticias/peru-es-uno-de-los-cuatro-paises-mas-megadiversos-del-planet-31887)." %}}
+        ### 02 |
+        #### [Research Circles in Science and Technology: Valuing Biodiversity in Peru](projects/research-circles/)
         CONV-000175-2015-FONDECYT-DE
 
         | Funding | Amount |
         | --- | ---: |
         | Grant covering the Manu National Park | S/ 1,144,604.00 |
         | Documented funding portfolio | S/ 6,227,644 |
-
-        ## Core Contributions & Professional Skills
-
+        {{% /portfolio-card %}}
+        {{% /portfolio-grid %}}
+    design:
+      columns: '1'
+  - block: markdown
+    id: impact
+    content:
+      title: 'Core Contributions & Professional Skills'
+      text: |-
+        {{% portfolio-card %}}
         - Grant Administration
         - Stakeholder Coordination
         - Academic Program Support
@@ -143,6 +139,7 @@ sections:
         | Doctoral Program | [PROCIENCIA grant record - Promotion 2](https://observatorio.prociencia.gob.pe/DetalleSubvencion/woz8JUN3/conv-000200-2015-fondecyt-de-promocion-2) |
         | Biodiversity Research Circle | [PROCIENCIA grant record](https://observatorio.prociencia.gob.pe/DetalleSubvencion/woz8JykJ/conv-000175-2015-fondecyt-de?utm_source=chatgpt.com) |
         | Executive summaries | [CONCYTEC/FONDECYT report, pages 157-158](https://portal.concytec.gob.pe/images/publicaciones/informes/subvenciones_proyectos_fondecyt_resumenes_ejecutivos_2013-2018-2-350_merged.pdf?utm_source=chatgpt.com) |
+        {{% /portfolio-card %}}
     design:
       columns: '1'
 ---
