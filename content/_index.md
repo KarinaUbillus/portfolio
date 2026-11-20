@@ -1,88 +1,148 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
-summary: 'Environmental economics research, academic program support, and project coordination.'
-date: 2026-11-19
+summary: 'Environmental Economics | Published Researcher | Research and Project Supporter'
 type: landing
 
 sections:
   - block: resume-biography-3
+    id: profile
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download Portfolio PDF
-        url: uploads/portafolio-web.pdf
       headings:
-        about: 'Professional Summary'
-        education: 'Education'
-        interests: 'Professional Interests'
+        about: 'PROFESSIONAL SUMMARY'
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: true
-
-      # Name heading sizing to accommodate long or short names
       name:
-        size: lg # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: lg
       avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
+        size: large
+        shape: circle
+  - block: markdown
+    id: education
+    content:
+      title: 'EDUCATION'
+      text: |-
+        **Master of Natural Resource and Environmental Economics**<br>
+        Universidad Nacional Agraria La Molina<br>
+        Lima, Peru
+
+        **Bachelor of Economics**<br>
+        Universidad Nacional Agraria La Molina<br>
+        Lima, Peru
+
+        [World Education Services (WES) Canada verified](https://badges.wes.org/Evidence?i=3b042cfc-d79c-4feb-9c55-038744abd31d&type=ca)
+
+        ## PROFESSIONAL INTERESTS
+
+        - Research coordination and program administration.
+        - Environmental and sustainability initiatives.
+        - Agriculture and food-sector value chains.
+        - Government and public-sector program support.
+        - University research administration.
+        - Community and organizational development.
+    design:
+      columns: '1'
   - block: markdown
     id: research
     content:
-      title: 'Research Portfolio'
-      subtitle: 'Environmental economics, agricultural value chains, biodiversity, and public research administration.'
+      title: 'RESEARCH PORTFOLIO'
       text: |-
-        My work connects empirical research with practical decision-making across rural development,
-        environmental policy, protected natural areas, university programs, and publicly funded initiatives.
+        ### RESEARCH CASE STUDY 01
+
+        **Quinoa Commercialization Networks in Jauja and Huancayo, Junín Region, Peru**
+
+        {{< portfolio-figure src="portfolio/quinoa-production.jpg" alt="Quinoa production in Peru" caption="Figure 1. Quinoa production in Peru, an important agricultural crop in the country's Andean agricultural sector. Source: Agraria.pe (2021). Photograph accompanying Producción nacional de quinua creció 10.3% en 2020. [View original article](https://www.agraria.pe/noticias/produccion-nacional-de-quinua-crecio-10-3-en-2020-23495)." >}}
+
+        This research examined the quinoa commercialization network in the provinces of Jauja and Huancayo, two of the main quinoa-producing areas in Peru’s Junín region.
+
+        **Research area:** Agricultural Economics - Agricultural Value Chains - Rural Development - Market Analysis<br>
+        **Academic qualification:** Bachelor’s Degree in Economics<br>
+        **Institution:** Universidad Nacional Agraria La Molina (UNALM), Peru<br>
+        **Research period:** 2013–2014 production season; fieldwork conducted in March 2015<br>
+        **Research location:** Jauja and Huancayo provinces, Junín Region, Peru<br>
+        **Published Article:** [DOI: 10.17268/sci.agropecu.2017.03.08](https://doi.org/10.17268/sci.agropecu.2017.03.08)
+
+        [View the case study](projects/quinoa-commercialization/)
+
+        ### RESEARCH PROJECT 2
+
+        **The Importance of Biodiversity in the Decision to Visit a Protected Natural Area in Peru**
+
+        {{< portfolio-figure src="portfolio/protected-natural-areas.jpg" alt="Protected natural areas in Peru" caption="Figure 2. Peru’s Impressive Nature Reserve for Ecotourism. Source: Adventur.pe, accessed November 18, 2026, [https://adventur.pe/ecoturismo-en-peru/](https://adventur.pe/ecoturismo-en-peru/)." >}}
+
+        This research investigated the influence of biodiversity on people’s decisions to visit protected natural areas (PNAs) in Peru and examined how environmental attributes contribute to the recreational economic value of these areas.
+
+        **Research area:** Environmental Economics - Natural Resource Economics - Economic Valuation - Biodiversity Conservation<br>
+        **Academic qualification:** Master of Science in Natural Resource and Environmental Economics<br>
+        **Institution:** Universidad Nacional Agraria La Molina (UNALM), Peru<br>
+        **Research period:** 2014-2016<br>
+        **Research location:** Six Protected Natural Areas in Peru<br>
+        **Published Thesis:** [UNALM Institutional Repository](https://repositorio.lamolina.edu.pe/items/8416b5c1-af86-43dc-8329-962b22c039cd)<br>
+        **Published Article:** [DOI: 10.7201/earn.2020.02.01.](https://doi.org/10.7201/earn.2020.02.01.)
+
+        [View the research project](projects/biodiversity-protected-areas/)
     design:
       columns: '1'
-  - block: collection
-    id: projects
-    content:
-      title: Selected Research & Projects
-      text: 'Academic research and professional project coordination.'
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      columns: 3
-      fill_image: true
-      show_date: false
   - block: markdown
-    id: impact
+    id: coordination
     content:
-      title: 'Core Strengths'
-      subtitle: 'Research administration · Grant coordination · Stakeholder engagement · Data analysis'
+      title: 'RESEARCH PROJECT COORDINATION & GOVERNMENT FUNDING SUPPORT PORTFOLIO'
+      subtitle: 'Universidad Nacional Agraria La Molina (UNALM) | Peru | 2015–2018'
       text: |-
-        - Research coordination and primary data collection
+        Research Administration | Grant Coordination | Academic Program Development | Institutional Collaboration
 
-        - Agricultural, environmental, and natural resource economics
+        {{< portfolio-figure src="portfolio/unalm-entrance.jpg" alt="Main entrance of the Universidad Nacional Agraria La Molina" caption="Figure 1. Main entrance of the Universidad Nacional Agraria La Molina (UNALM). Source: Universidad Nacional Agraria La Molina (2025). Gaceta Molinera, Note 128. [Original publication](https://www.lamolina.edu.pe/Gaceta/edicion2025/notas/nota128.htm?utm_source=chatgpt.com)." >}}
 
-        - Grant administration and institutional collaboration
+        During my professional experience at Universidad Nacional Agraria La Molina (UNALM), I supported two major government-funded academic and scientific research initiatives awarded through competitive FONDECYT funding programs.
 
-        - Statistical analysis and evidence-based recommendations
+        These initiatives comprised a doctoral education program funded through two successful promotions and a multidisciplinary Research Circle focused on the economic valuation of biodiversity in Peru, comprising two complementary research subprojects.
 
-        - Academic program support and documentation management
+        My responsibilities involved administrative coordination, academic program support, institutional documentation, communication with faculty members and research teams, and assistance with administrative requirements associated with publicly funded initiatives.
+
+        ## Selected Projects
+
+        **01 | [Strengthening Doctoral Programs at Peruvian Universities](projects/doctoral-programs/)**<br>
+        One initiative · Two funded promotions<br>
+        CONV-000200-2015-FONDECYT-DE
+
+        | Funding | Amount |
+        | --- | ---: |
+        | Promotion 1 | S/ 2,873,889 |
+        | Promotion 2 | S/ 2,209,151 |
+        | Combined funding | S/ 5,083,040 |
+
+        **02 | [Research Circles in Science and Technology: Valuing Biodiversity in Peru](projects/research-circles/)**<br>
+        CONV-000175-2015-FONDECYT-DE
+
+        | Funding | Amount |
+        | --- | ---: |
+        | Grant covering the Manu National Park | S/ 1,144,604.00 |
+        | Documented funding portfolio | S/ 6,227,644 |
+
+        ## Core Contributions & Professional Skills
+
+        - Grant Administration
+        - Stakeholder Coordination
+        - Academic Program Support
+        - Documentation Management
+        - Timeline & Deadline Monitoring
+        - Institutional Collaboration
+
+        ## Professional Impact
+
+        This experience strengthened my ability to work across academic and administrative environments, coordinate information among diverse stakeholders, and support the operational requirements of publicly funded research initiatives. It also gave me valuable insight into the role of institutional collaboration and effective administration in advancing scientific research and higher education.
+
+        ## Official Project Documentation
+
+        | Project | Reference |
+        | --- | --- |
+        | Doctoral Program | [PROCIENCIA grant record - Promotion 1](https://observatorio.prociencia.gob.pe/DetalleSubvencion/woz8Jyk3/conv-000200-2015-fondecyt-de-promocion-1?utm_source=chatgpt.com) |
+        | Doctoral Program | [PROCIENCIA grant record - Promotion 2](https://observatorio.prociencia.gob.pe/DetalleSubvencion/woz8JUN3/conv-000200-2015-fondecyt-de-promocion-2) |
+        | Biodiversity Research Circle | [PROCIENCIA grant record](https://observatorio.prociencia.gob.pe/DetalleSubvencion/woz8JykJ/conv-000175-2015-fondecyt-de?utm_source=chatgpt.com) |
+        | Executive summaries | [CONCYTEC/FONDECYT report, pages 157-158](https://portal.concytec.gob.pe/images/publicaciones/informes/subvenciones_proyectos_fondecyt_resumenes_ejecutivos_2013-2018-2-350_merged.pdf?utm_source=chatgpt.com) |
     design:
       columns: '1'
-  - block: cta-card
-    content:
-      title: Research, sustainability, or program coordination
-      text: Interested in research coordination, environmental economics, sustainability initiatives, or university administration?
-      button:
-        text: View experience
-        url: experience/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: 'bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl'
-        css_style: ''
 ---

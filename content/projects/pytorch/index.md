@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Biodiversity and Protected Natural Areas
 date: 2016-01-01
 summary: Environmental economic valuation of biodiversity and its influence on visitor decisions across six protected natural areas in Peru.

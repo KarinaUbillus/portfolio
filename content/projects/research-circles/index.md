@@ -1,34 +1,28 @@
 ---
-title: Research Circles in Science and Technology
-date: 2015-01-01
-summary: Administrative and institutional support for a FONDECYT-funded biodiversity research initiative led by Universidad Nacional Agraria La Molina.
-tags:
-  - Biodiversity
-  - Research Coordination
-  - Public Funding
-  - Institutional Collaboration
-links: []
+title: 'Research Circles in Science and Technology: Valuing Biodiversity in Peru'
 ---
 
-## Project overview
+## 02 | Research Circles in Science and Technology: Valuing Biodiversity in Peru
 
-EF-031-2015 supported collaborative university research groups to promote scientific research and technological development. The initiative, “Valuing Biodiversity in Peru,” was led by Universidad Nacional Agraria La Molina within the MINEDU research funding framework.
+### Research Circles in Science and Technology – EF-031-2015
+
+{{< portfolio-figure src="portfolio/biodiversity-peru.jpg" alt="Representation of the biodiversity in Peru" caption="Figure 1. Representation of the biodiversity in Peru. Source: Agraria.pe (2023). Photograph accompanying Perú es uno de los cuatro países más megadiversos del planeta. [View original article](https://agraria.pe/noticias/peru-es-uno-de-los-cuatro-paises-mas-megadiversos-del-planet-31887)." >}}
 
 **Grant reference:** CONV-000175-2015-FONDECYT-DE  
-**Funding institution:** FONDECYT / CONCYTEC  
-**Lead institution:** Universidad Nacional Agraria La Molina  
+**Funding institution:** FONDECYT / CONCYTEC, within the MINEDU research funding framework<br>
+**Lead institution:** Universidad Nacional Agraria La Molina (UNALM)<br>
 **General coordinator:** Carlos Enrique Orihuela Romero  
 **Official funding awarded:** S/ 1,144,604
 
-## Scope
+### Project overview
 
-The project examined biodiversity valuation in Peru, including complementary research on biodiversity and protected natural areas.
+A competitive public funding initiative designed to promote scientific research and technological development through collaborative university research groups.
 
-## Contributions
+### My contribution
 
-- Administrative and institutional coordination
-- Organization of project documentation and institutional information
-- Communication between academic and administrative stakeholders
-- Support for administrative requirements associated with publicly funded research
+- Supported administrative and institutional coordination related to the research initiative.
+- Assisted with organizing project documentation and institutional information.
+- Facilitated communication between academic and administrative stakeholders.
+- Supported administrative requirements associated with publicly funded research activities.
 
-This work supported the operational, documentation, and coordination needs of a competitive public research initiative.
+**Funding reference:** [EF-031-2015 – Círculos de Investigación en Ciencia y Tecnología](https://observatorio.prociencia.gob.pe/DetalleSubvencion/woz8JykJ/conv-000175-2015-fondecyt-de?utm_source=chatgpt.com).

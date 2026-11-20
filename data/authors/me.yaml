@@ -2,17 +2,17 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Karina Ubillus Nevado, BE, MScEE
+  display: KARINA UBILLUS NEVADO, BE, MScEE
   given: Karina
   family: Ubillus Nevado
   alternate: ''
   pronunciation: ''
-  pronouns: she/her
+  pronouns: She/her
 status:
   icon: '🌱'
-role: Environmental Economics | Published Researcher | Research & Project Support
+role: ENVIRONMENTAL ECONOMICS | PUBLISHED RESEARCHER | RESEARCH AND PROJECT SUPPORTER
 bio: |
-  Analytical professional with cross-functional experience managing academic programs, research initiatives, and retail operations across Peru and Canada. Skilled in research, data analysis, stakeholder engagement, and process optimization, with a focus on research coordination, sustainability, and environmental economics.
+  Analytical professional with cross-functional experience managing academic programs, research initiatives, and retail operations across Peru and Canada. Skilled in research, data analysis, stakeholder engagement, and process optimization, seeking opportunities in research coordination, sustainability, or environmental economics.
 
 affiliations:
   - name: Universidad Nacional Agraria La Molina
@@ -20,60 +20,4 @@ affiliations:
 
 links: []
 
-interests:
-  - Research coordination and program administration
-  - Environmental and sustainability initiatives
-  - Agriculture and food-sector value chains
-  - Government and public-sector program support
-  - University research administration
-  - Community and organizational development
-
-education:
-  - degree: Master of Natural Resource and Environmental Economics
-    institution: Universidad Nacional Agraria La Molina
-    start: 2014-01-01
-    end: 2016-12-31
-    summary: |
-      Research in environmental economics and recreational use value of protected natural areas in Peru.
-  - degree: Bachelor of Economics
-    institution: Universidad Nacional Agraria La Molina
-    start: 2010-01-01
-    end: 2014-12-31
-    summary: |
-      Research on quinoa commercialization networks and agricultural value chains in Jauja and Huancayo.
-
-experience:
-  - role: Research Administration & Grant Coordination Support
-    org: Universidad Nacional Agraria La Molina
-    start: 2015-01-01
-    end: 2018-12-31
-    summary: |
-      Supported competitive FONDECYT-funded doctoral and biodiversity research initiatives through academic program support, grant coordination, institutional documentation, stakeholder communication, and administrative follow-up.
-
-skills:
-  - name: Research & Economics
-    items:
-      - label: Agricultural and Environmental Economics
-        level: 5
-      - label: Research Design and Data Analysis
-        level: 5
-      - label: Economic Valuation
-        level: 5
-  - name: Project & Stakeholder Support
-    items:
-      - label: Grant and Program Administration
-        level: 5
-      - label: Institutional Coordination
-        level: 5
-      - label: Documentation and Timeline Management
-        level: 5
-
-languages:
-  - name: Spanish
-    level: 5
-    label: Native
-  - name: English
-    level: 4
-    label: Professional
-
-awards: []
+interests: []
